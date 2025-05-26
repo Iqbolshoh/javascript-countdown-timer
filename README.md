@@ -25,10 +25,9 @@ This is a simple countdown timer built using HTML, CSS, and JavaScript. The time
 ## 🧪 How to Use
 
 1. 📥 **Clone the repository**:
-
-   ```bash
+```bash
    git clone https://github.com/Iqbolshoh/javascript-timer.git
-````
+```
 
 2. 📁 **Navigate to the project directory**:
 
