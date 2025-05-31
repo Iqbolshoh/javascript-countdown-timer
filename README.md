@@ -1,6 +1,6 @@
 # ⏱️ JavaScript Timer
 
-This is a simple countdown timer built using HTML, CSS, and JavaScript. The timer starts from a preset time (5 minutes in this case) and counts down to zero. The user can pause and resume the countdown as needed.
+🔔 This is a simple countdown timer built using HTML, CSS, and JavaScript. The timer starts from a preset time (5 minutes in this case) and counts down to zero. The user can pause and resume the countdown as needed.
 
 ## 👀 Preview
 
