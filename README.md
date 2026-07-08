@@ -1,6 +1,33 @@
-# ⏱️ JavaScript Timer
+# ⏱️ JavaScript Countdown Timer
 
-🔔 This is a simple countdown timer built using HTML, CSS, and JavaScript. The timer starts from a preset time (5 minutes in this case) and counts down to zero. The user can pause and resume the countdown as needed.
+**JavaScript Countdown Timer** is a **simple countdown timer** built with **vanilla HTML, CSS, and JavaScript**. It starts from a preset time (5 minutes by default), counts down to zero, and alerts the user when time is up — with play/pause controls to start and stop the countdown at any moment.
+
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-%23F7DF1C.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License">
+</p>
+
+## 📚 Table of Contents
+
+- [Features](#-features)
+- [Preview](#-preview)
+- [Project Structure](#-project-structure)
+- [Installation Guide](#️-installation-guide)
+- [Usage](#-usage)
+- [Technologies Used](#-technologies-used)
+- [License](#-license)
+- [Contributing](#-contributing)
+- [Connect with Me](#-connect-with-me)
+
+## ✨ Features
+
+✅ **Countdown display:** Shows minutes and seconds in a clean `MM:SS` format.
+✅ **Play/Pause controls:** Start and stop the countdown at any time.
+✅ **Time's-up alert:** A browser alert fires the moment the countdown reaches zero.
+✅ **Auto-reset:** The timer resets back to its starting value after finishing.
+✅ **Responsive design:** The circular timer card adapts to smaller screens.
 
 ## 👀 Preview
 
@@ -10,38 +37,43 @@
 ### 📱 Mobile
 ![Mobile Preview](./src/images/mobile.png)
 
----
+## 📂 Project Structure
 
-## ✨ Features
-
-- 📱 **Responsive Design**: The timer adjusts to different screen sizes.  
-- ⏸️▶️ **Play/Pause Functionality**: The timer can be paused and resumed at any time.  
-- 🔔 **Alert Notification**: An alert is displayed when the timer reaches zero.
-
----
-
-## 🧪 How to Use
-
-1. 📥 **Clone the repository**:
-```bash
-   git clone https://github.com/Iqbolshoh/javascript-timer.git
+```
+javascript-countdown-timer/
+├── src/
+│   ├── css/
+│   │   └── styles.css       # Circular card layout, buttons, and responsive breakpoint
+│   ├── js/
+│   │   └── script.js        # Countdown logic and play/pause controls
+│   └── images/                # Screenshots used in this README
+├── favicon.ico
+├── index.html                  # Timer markup
+└── README.md
 ```
 
-2. 📁 **Navigate to the project directory**:
+## ⚙️ Installation Guide 🛠️
 
-   ```bash
-   cd javascript-timer
-   ```
+### 1️⃣ Clone the Repository 📥
+```bash
+git clone https://github.com/Iqbolshoh/javascript-countdown-timer.git
+```
 
-3. 🌐 **Open `index.html` in your web browser**:
+### 2️⃣ Navigate to the Project Directory 📂
+```bash
+cd javascript-countdown-timer
+```
 
-   ```bash
-   open index.html
-   ```
+### 3️⃣ Open the App 🌐
+Just open `index.html` in any modern browser — no build step or server required.
 
-4. ⏳ **The timer will start at 5 minutes.** You can pause and resume using the "Pause" and "Play" buttons.
+## 🚀 Usage
 
----
+1. ⏳ The timer starts at **05:00** by default.
+2. ▶️ Click **Play** to start (or restart) the countdown.
+3. ⏸️ Click **Pause** to stop it at the current time.
+4. 🔔 When it reaches `00:00`, an alert notifies you that time is up, and the timer resets.
+5. ✏️ To change the starting time, edit the `<h1 id="time">05:00</h1>` value in `index.html`.
 
 ## 🖥 Technologies Used
 ![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -49,71 +81,22 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1C.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## 📜 License
-This project is open-source and available under the **MIT License**.
+This project is open-source and available under the [MIT License](./LICENSE).
 
-## 🤝 Contributing  
+## 🤝 Contributing
 🎯 Contributions are welcome! If you have suggestions or want to enhance the project, feel free to fork the repository and submit a pull request.
 
-## 📬 Connect with Me  
-💬 I love meeting new people and discussing tech, business, and creative ideas. Let’s connect! You can reach me on these platforms:
+## 📬 Connect with Me
+💬 I love meeting new people and discussing tech, business, and creative ideas. Let's connect! You can reach me on these platforms:
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <a href="https://iqbolshoh.uz" target="_blank">
-          <img src="https://img.icons8.com/color/48/domain.png" 
-               height="40" width="40" alt="Website" title="Website" />
-        </a>
-      </td>
-      <td>
-        <a href="mailto:iilhomjonov777@gmail.com" target="_blank">
-          <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/gmail.svg"
-               height="40" width="40" alt="Email" title="Email" />
-        </a>
-      </td>
-      <td>
-        <a href="https://github.com/iqbolshoh" target="_blank">
-          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
-               height="40" width="40" alt="GitHub" title="GitHub" />
-        </a>
-      </td>
-      <td>
-        <a href="https://www.linkedin.com/in/iqbolshoh/" target="_blank">
-          <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/linkedin.svg"
-               height="40" width="40" alt="LinkedIn" title="LinkedIn" />
-        </a>
-      </td>
-      <td>
-        <a href="https://t.me/iqbolshoh_777" target="_blank">
-          <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/telegram.svg"
-               height="40" width="40" alt="Telegram" title="Telegram" />
-        </a>
-      </td>
-      <td>
-        <a href="https://wa.me/998997799333" target="_blank">
-          <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/whatsapp.svg"
-               height="40" width="40" alt="WhatsApp" title="WhatsApp" />
-        </a>
-      </td>
-      <td>
-        <a href="https://instagram.com/iqbolshoh_777" target="_blank">
-          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
-               height="40" width="40" alt="Instagram" title="Instagram" />
-        </a>
-      </td>
-      <td>
-        <a href="https://x.com/iqbolshoh_777" target="_blank">
-          <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"
-               height="40" width="40" alt="X" title="X (Twitter)" />
-        </a>
-      </td>
-      <td>
-        <a href="https://www.youtube.com/@Iqbolshoh_777" target="_blank">
-          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg"
-               height="40" width="40" alt="YouTube" title="YouTube" />
-        </a>
-      </td>
-    </tr>
-  </table>
+
+[![Website](https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://iqbolshoh.uz)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:iilhomjonov777@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iqbolshoh)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/templates_uz_support)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/998776030033)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/iqbolshoh.dev)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Iqbolshoh_dev)
+
 </div>
